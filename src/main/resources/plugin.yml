@@ -1,0 +1,11 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+main: ${mainClass}
+depend: ${dependencies}
+commands:
+  member:
+    description: Sync up the account
+    usage: /member
