@@ -83,7 +83,7 @@ public class Sync extends JavaPlugin
 									//Sync.this.synchronisePlayer(Sync.this.getUserID(Sync.this.getPlayerIdentifier(player)), Sync.this.getGroupID(forumPrimaryGroup));
 									Sync.this.synchronisePlayer(Sync.this.getUserID(Sync.this.getPlayerIdentifier(player)), 2);
 								} else {
-									final int[] forumSecondaryGroupIDs = new int[foruhmSecondaryGroups.length];
+									final int[] forumSecondaryGroupIDs = new int[forumSecondaryGroups.length];
 									for(int i = 0; i < forumSecondaryGroups.length; i++) {
 										final int gID = Sync.this.getGroupID(forumSecondaryGroups[i]);
 										if (gID != -1) {
